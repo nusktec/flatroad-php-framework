@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f06e0625-7f3a-47a3-ae18-bd7cc6c792e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/anyhash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/bcrypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/meekro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/system.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/errorpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wc_superadmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wc_superadmin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bench/files/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/bench/files/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/header/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/header/header.php" afterDir="false" />
+    <list default="true" id="f06e0625-7f3a-47a3-ae18-bd7cc6c792e0" name="Default Changelist" comment="initial deposit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/router.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -177,11 +162,6 @@
               <item name="wc_superadmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="wc_superadmin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="wc_superadmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wc_superadmin" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -222,6 +202,17 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="wc_superadmin" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.wc_superadmin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -233,7 +224,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564833918123</updated>
       <workItem from="1564833919285" duration="11647000" />
-      <workItem from="1564853273849" duration="8846000" />
+      <workItem from="1564853273849" duration="9805000" />
     </task>
     <task id="LOCAL-00001" summary="initial deposit">
       <created>1564849535262</created>
@@ -242,17 +233,30 @@
       <option name="project" value="LOCAL" />
       <updated>1564849535262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial deposit">
+      <created>1564864174849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564864174849</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial deposit">
+      <created>1564864427157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564864427157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20493000" />
+    <option name="totallyTimeSpent" value="21452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="23" width="1680" height="980" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,7 +270,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32912844" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32912844" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -493,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/router.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
