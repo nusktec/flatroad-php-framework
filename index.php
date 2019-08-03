@@ -2,6 +2,8 @@
 <?php
 //import routing engines
 require __DIR__ . '/vendor/autoload.php';
+//require config
+require __DIR__ . '/config.php';
 
 // Require composer autoloader
 use Bramus\Router\Router;

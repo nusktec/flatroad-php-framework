@@ -1,11 +1,11 @@
 <?php
-include '../controller.php';
-setHeader('Login', 'Work And Connect')
+include __DIR__ . '/controller.php';
+setHeader('Login', 'Work And Connect');
 //require above all files
-include __DIR__.'../header/include.php';
+include __DIR__ . '/header/include.php';
 ?>
 <body class="auth-wrapper">
-<div class="all-wrapper menu-side with-pattern">
+<div id="app" class="all-wrapper menu-side with-pattern">
     <div class="auth-box-w">
         <div class="logo-w">
             <a href="/"><img width="120" alt="" src="bench/files/images/logo.png"></a>
@@ -28,14 +28,21 @@ include __DIR__.'../header/include.php';
                     <label class="form-check-label"><input class="form-check-input" type="checkbox">Remember Me</label>
                 </div>
             </div>
+            <a href="<?php echo APP_BASE_NAME ?>dashboard">Dashboard</a>
         </form>
     </div>
 </div>
 </body>
-<script>
-
-</script>
 <?php
 //additional includes
-
+include __DIR__ . '/footer/include.php';
 ?>
+<script>
+    //start dev querying
+    new Vue({
+        el: '#app',
+        data: {
+            info: 'Information from vue app....',
+        }
+    })
+</script>

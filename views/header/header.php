@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . '/../../config.php';
 $title = $_SESSION['header']['title'];
 $desc = $_SESSION['header']['desc'];
 ?>
@@ -23,6 +22,18 @@ $desc = $_SESSION['header']['desc'];
         <link href="bench/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
         <link href="bench/bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
         <link href="bench/css/main.css?version=4.4.0" rel="stylesheet">
+        <link rel="stylesheet" href="bench/css/topBar.css">
+        <script src="bench/js/topBar.js"></script>
+        <?php
+        //switch between dev mode and production mode
+        if (APP_TURBO_MODE == true) {
+            //add speed mode
+            ?>
+            <script src="bench/js/turbo.js" type="text/javascript"></script>
+        <?php
+        }
+        ?>
+        <meta name="turbolinks-cache-control" content="no-cache">
     </head>
 
 <?php
