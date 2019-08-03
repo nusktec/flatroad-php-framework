@@ -3,10 +3,14 @@ global $router;
 //start clean definitions
 
 //define home page - login
-$router->get('/', function (){
+$router->get('/', function () {
     require(renderView('login'));
 });
 //make a middleware
-$router->get('/dashboard', function (){
+$router->get('/dashboard', function () {
     require(renderView('dashboard'));
+});
+
+$router->get("/test", function () {
+
 });

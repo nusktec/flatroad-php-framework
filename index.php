@@ -1,9 +1,14 @@
 <html lang="en" ch>
 <?php
-//import routing engines
-require __DIR__ . '/vendor/autoload.php';
 //require config
 require __DIR__ . '/config.php';
+if(APP_HIDE_ERROR){
+    error_reporting(0); //silence every error
+}
+//import routing engines
+require __DIR__ . '/vendor/autoload.php';
+//require db
+require __DIR__.'/includes/loader.php';
 
 // Require composer autoloader
 use Bramus\Router\Router;
@@ -15,7 +20,7 @@ $router = new Router();
 // ....
 //defining errors
 $router->set404(function (){
-   echo "Error has occur !";
+  require (renderView('errorpage'));
 });
 
 //include major routes

@@ -11,8 +11,8 @@ $desc = $_SESSION['header']['desc'];
         <meta content="><?php echo HTML_META_TAGS ?>" name="tags">
         <meta content="<?php echo $desc ? $desc : "W&C | Console" ?>" name="description">
         <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link href="bench/favicon.png" rel="shortcut icon">
-        <link href="bench/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="bench/files/images/logo_white.png" rel="shortcut icon">
+        <link href="bench/files/images/logo_red.png" rel="apple-touch-icon">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet" type="text/css">
         <link href="bench/bower_components/select2/dist/css/select2.min.css" rel="stylesheet">
         <link href="bench/bower_components/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
