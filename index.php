@@ -1,4 +1,4 @@
-<html lang="en" ch>
+<html lang="en">
 <?php
 //require config
 require __DIR__ . '/config.php';
@@ -6,7 +6,7 @@ if(APP_HIDE_ERROR){
     error_reporting(0); //silence every error
 }
 //import routing engines
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/flatroad/autoload.php';
 //require db
 require __DIR__.'/includes/loader.php';
 

@@ -12,7 +12,7 @@ const DB_USER='root';
 const DB_PASS='mysql';
 const DB_NAME='wnc';
 //show general error
-const APP_HIDE_ERROR=true;
+const APP_HIDE_ERROR=false;
 //allow any domain to access your api
 const APP_REJECT_OTHERS=true;
 const APP_API_DOMAIN_ONLY='*';

@@ -1,11 +1,11 @@
 <?php
 
 /**
- * @author      RSC Byte Limited <rscbyte.com>
+ * @author      RSC Byte Limited <rev@rscbyte.com>
  * @copyright   Copyright (c), 2018 Revelation Ben
  * @license     MIT public license
  */
-namespace Flatroad\Router;
+namespace FlatRoad\Router;
 
 /**
  * Class Router.

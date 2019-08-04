@@ -15,14 +15,18 @@ $router->before('GET|POST','/su/.*', function () {
 });
 
 //to admin dashboard
-$router->get('/su/', function () {
-    header('Location: /dashboard');
+$router->mount('/su', function () use ($router) {
+    //home page for su
+    $router->get("/", function () use ($router){
+        //check if login
+
+    });
+    //su dashboard
+    $router->get("/dashboard", function (){
+        require(renderView('dashboard'));
+    });
 });
 
-//to admin dashboard
-$router->get('/su/dashboard', function () {
-    require(renderView('dashboard'));
-});
 
 //test url
 $router->get("/test", function () {
