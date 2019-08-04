@@ -1,11 +1,11 @@
 <?php
 
 /**
- * @author      Bram(us) Van Damme <bramus@bram.us>
- * @copyright   Copyright (c), 2013 Bram(us) Van Damme
+ * @author      RSC Byte Limited <rscbyte.com>
+ * @copyright   Copyright (c), 2018 Revelation Ben
  * @license     MIT public license
  */
-namespace Bramus\Router;
+namespace Flatroad\Router;
 
 /**
  * Class Router.

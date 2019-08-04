@@ -3,6 +3,7 @@ $title = $_SESSION['header']['title'];
 $desc = $_SESSION['header']['desc'];
 ?>
     <head>
+        <base href="<?php echo APP_FILE_PATH ?>">
         <title><?php echo ($title) ? ('W&C | ' . $title) : "W&C | Console" ?></title>
         <meta charset="utf-8">
         <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -11,6 +12,8 @@ $desc = $_SESSION['header']['desc'];
         <meta content="><?php echo HTML_META_TAGS ?>" name="tags">
         <meta content="<?php echo $desc ? $desc : "W&C | Console" ?>" name="description">
         <meta content="width=device-width, initial-scale=1" name="viewport">
+
+        <!--Your custom css file dumped here-->
         <link href="bench/files/images/logo_white.png" rel="shortcut icon">
         <link href="bench/files/images/logo_red.png" rel="apple-touch-icon">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet" type="text/css">
@@ -22,6 +25,8 @@ $desc = $_SESSION['header']['desc'];
         <link href="bench/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
         <link href="bench/bower_components/slick-carousel/slick/slick.css" rel="stylesheet">
         <link href="bench/css/main.css?version=4.4.0" rel="stylesheet">
+        <!--End of custom css file dumped here-->
+
         <link rel="stylesheet" href="bench/css/topBar.css">
         <script src="bench/js/topBar.js"></script>
         <?php

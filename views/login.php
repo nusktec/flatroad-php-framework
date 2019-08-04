@@ -28,7 +28,6 @@ include __DIR__ . '/header/include.php';
                     <label class="form-check-label"><input class="form-check-input" type="checkbox">Remember Me</label>
                 </div>
             </div>
-            <a href="<?php echo APP_BASE_NAME ?>dashboard">Dashboard</a>
         </form>
     </div>
 </div>

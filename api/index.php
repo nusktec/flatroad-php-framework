@@ -15,7 +15,7 @@ require '../vendor/autoload.php';
 require '../includes/loader.php';
 
 // Require composer autoloader
-use Bramus\Router\Router;
+use Flatroad\Router\Router;
 
 // Create Router instance
 $router = new Router();

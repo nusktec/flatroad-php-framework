@@ -17,4 +17,4 @@ const APP_HIDE_ERROR=true;
 const APP_REJECT_OTHERS=true;
 const APP_API_DOMAIN_ONLY='*';
 //server hand shake code
-const SSK=""; //server secrete key
+const SSK="73050f3f22f18a7174b691b07f394d00eb661221"; //server secrete key

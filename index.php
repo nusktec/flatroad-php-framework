@@ -11,11 +11,12 @@ require __DIR__ . '/vendor/autoload.php';
 require __DIR__.'/includes/loader.php';
 
 // Require composer autoloader
-use Bramus\Router\Router;
+use Flatroad\Router\Router;
 
 // Create Router instance
 $router = new Router();
-
+//set base name
+//$router->setBasePath("/");
 // Define routes
 // ....
 //defining errors
