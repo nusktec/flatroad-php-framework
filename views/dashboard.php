@@ -11,7 +11,8 @@ include __DIR__ . '/header/include.php';
     <div aria-hidden="true" class="onboarding-modal modal fade animated show-on-load" role="dialog" tabindex="-1">
         <div class="modal-dialog modal-centered" role="document">
             <div class="modal-content text-center">
-                <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span class="close-label">Skip Intro</span><span class="os-icon os-icon-close"></span></button>
+                <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span class="close-label">Skip Intro</span><span
+                            class="os-icon os-icon-close"></span></button>
                 <div class="onboarding-slider-w">
                     <div class="onboarding-slide">
                         <div class="onboarding-media">
@@ -22,7 +23,9 @@ include __DIR__ . '/header/include.php';
                                 Example of onboarding screen!
                             </h4>
                             <div class="onboarding-text">
-                                This is an example of a multistep onboarding screen, you can use it to introduce your customers to your app, or collect additional information from them before they start using your app.
+                                This is an example of a multistep onboarding screen, you can use it to introduce your
+                                customers to your app, or collect additional information from them before they start
+                                using your app.
                             </div>
                         </div>
                     </div>
@@ -35,13 +38,16 @@ include __DIR__ . '/header/include.php';
                                 Example Request Information
                             </h4>
                             <div class="onboarding-text">
-                                In this example you can see a form where you can request some additional information from the customer when they land on the app page.
+                                In this example you can see a form where you can request some additional information
+                                from the customer when they land on the app page.
                             </div>
                             <form>
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <label for="">Your Full Name</label><input class="form-control" placeholder="Enter your full name..." type="text" value="">
+                                            <label for="">Your Full Name</label><input class="form-control"
+                                                                                       placeholder="Enter your full name..."
+                                                                                       type="text" value="">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
@@ -72,7 +78,9 @@ include __DIR__ . '/header/include.php';
                                 Showcase App Features
                             </h4>
                             <div class="onboarding-text">
-                                In this example you can showcase some of the features of your application, it is very handy to make new users aware of your hidden features. You can use boostrap columns to split them up.
+                                In this example you can showcase some of the features of your application, it is very
+                                handy to make new users aware of your hidden features. You can use boostrap columns to
+                                split them up.
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
@@ -277,7 +285,8 @@ include __DIR__ . '/header/include.php';
                                 <a href="index.html">Dashboard 1</a>
                             </li>
                             <li>
-                                <a href="apps_crypto.html">Crypto Dashboard <strong class="badge badge-danger">Hot</strong></a>
+                                <a href="apps_crypto.html">Crypto Dashboard <strong
+                                            class="badge badge-danger">Hot</strong></a>
                             </li>
                             <li>
                                 <a href="apps_support_dashboard.html">Dashboard 3</a>
@@ -307,7 +316,8 @@ include __DIR__ . '/header/include.php';
                                 <a href="layouts_menu_side_full_dark.html">Side Menu Dark</a>
                             </li>
                             <li>
-                                <a href="layouts_menu_side_transparent.html">Side Menu Transparent <strong class="badge badge-danger">New</strong></a>
+                                <a href="layouts_menu_side_transparent.html">Side Menu Transparent <strong
+                                            class="badge badge-danger">New</strong></a>
                             </li>
                             <li>
                                 <a href="apps_pipeline.html">Side &amp; Top Dark</a>
@@ -370,7 +380,8 @@ include __DIR__ . '/header/include.php';
                                 <a href="apps_support_index.html">Tickets Index</a>
                             </li>
                             <li>
-                                <a href="apps_crypto.html">Crypto Dashboard <strong class="badge badge-danger">New</strong></a>
+                                <a href="apps_crypto.html">Crypto Dashboard <strong
+                                            class="badge badge-danger">New</strong></a>
                             </li>
                             <li>
                                 <a href="apps_projects.html">Projects List</a>
@@ -382,7 +393,8 @@ include __DIR__ . '/header/include.php';
                                 <a href="apps_full_chat.html">Chat Application</a>
                             </li>
                             <li>
-                                <a href="apps_todo.html">To Do Application <strong class="badge badge-danger">New</strong></a>
+                                <a href="apps_todo.html">To Do Application <strong
+                                            class="badge badge-danger">New</strong></a>
                             </li>
                             <li>
                                 <a href="misc_chat.html">Popup Chat</a>
@@ -620,7 +632,9 @@ include __DIR__ . '/header/include.php';
                         Clean Bootstrap 4 Template
                     </p>
                     <div class="btn-w">
-                        <a class="btn btn-white btn-rounded" href="https://themeforest.net/item/light-admin-clean-bootstrap-dashboard-html-template/19760124?ref=Osetin" target="_blank">Purchase Now</a>
+                        <a class="btn btn-white btn-rounded"
+                           href="https://themeforest.net/item/light-admin-clean-bootstrap-dashboard-html-template/19760124?ref=Osetin"
+                           target="_blank">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -674,7 +688,8 @@ include __DIR__ . '/header/include.php';
                         </div>
                         <ul>
                             <li>
-                                <a href="apps_email.html"><i class="os-icon os-icon-mail-01"></i><span>Incoming Mail</span></a>
+                                <a href="apps_email.html"><i
+                                            class="os-icon os-icon-mail-01"></i><span>Incoming Mail</span></a>
                             </li>
                             <li>
                                 <a href="users_profile_big.html"><i class="os-icon os-icon-user-male-circle2"></i><span>Profile Details</span></a>
@@ -686,7 +701,7 @@ include __DIR__ . '/header/include.php';
                                 <a href="#"><i class="os-icon os-icon-others-43"></i><span>Notifications</span></a>
                             </li>
                             <li>
-                                <a href="#"><i class="os-icon os-icon-signs-11"></i><span>Logout</span></a>
+                                <a v-on:click="btnout" href="javascript:void()"><i class="os-icon os-icon-signs-11"></i><span>Logout</span></a>
                             </li>
                         </ul>
                     </div>
@@ -904,7 +919,8 @@ include __DIR__ . '/header/include.php';
                                     <a href="index.html">Dashboard 1</a>
                                 </li>
                                 <li>
-                                    <a href="apps_crypto.html">Crypto Dashboard <strong class="badge badge-danger">Hot</strong></a>
+                                    <a href="apps_crypto.html">Crypto Dashboard <strong
+                                                class="badge badge-danger">Hot</strong></a>
                                 </li>
                                 <li>
                                     <a href="apps_support_dashboard.html">Dashboard 3</a>
@@ -944,7 +960,8 @@ include __DIR__ . '/header/include.php';
                                     <a href="layouts_menu_side_full_dark.html">Side Menu Dark</a>
                                 </li>
                                 <li>
-                                    <a href="layouts_menu_side_transparent.html">Side Menu Transparent <strong class="badge badge-danger">New</strong></a>
+                                    <a href="layouts_menu_side_transparent.html">Side Menu Transparent <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="apps_pipeline.html">Side &amp; Top Dark</a>
@@ -955,7 +972,8 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="layouts_menu_side_mini.html">Mini Side Menu</a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
                                     <a href="layouts_menu_side_mini_dark.html">Mini Menu Dark</a>
                                 </li>
@@ -974,9 +992,11 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="layouts_menu_top_dark.html">Top Menu Dark</a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
-                                    <a href="layouts_menu_top_image.html">Top Menu Image <strong class="badge badge-danger">New</strong></a>
+                                    <a href="layouts_menu_top_image.html">Top Menu Image <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="layouts_menu_sub_style_flyout.html">Sub Menu Flyout</a>
@@ -1022,7 +1042,8 @@ include __DIR__ . '/header/include.php';
                                     <a href="apps_support_index.html">Tickets Index</a>
                                 </li>
                                 <li>
-                                    <a href="apps_crypto.html">Crypto Dashboard <strong class="badge badge-danger">New</strong></a>
+                                    <a href="apps_crypto.html">Crypto Dashboard <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="apps_projects.html">Projects List</a>
@@ -1030,12 +1051,14 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="apps_bank.html">Banking <strong class="badge badge-danger">New</strong></a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
                                     <a href="apps_full_chat.html">Chat Application</a>
                                 </li>
                                 <li>
-                                    <a href="apps_todo.html">To Do Application <strong class="badge badge-danger">New</strong></a>
+                                    <a href="apps_todo.html">To Do Application <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="misc_chat.html">Popup Chat</a>
@@ -1044,7 +1067,8 @@ include __DIR__ . '/header/include.php';
                                     <a href="apps_pipeline.html">CRM Pipeline</a>
                                 </li>
                                 <li>
-                                    <a href="rentals_index_grid.html">Property Listing <strong class="badge badge-danger">New</strong></a>
+                                    <a href="rentals_index_grid.html">Property Listing <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="misc_calendar.html">Calendar</a>
@@ -1072,7 +1096,8 @@ include __DIR__ . '/header/include.php';
                                     <a href="misc_invoice.html">Invoice</a>
                                 </li>
                                 <li>
-                                    <a href="rentals_index_grid.html">Property Listing <strong class="badge badge-danger">New</strong></a>
+                                    <a href="rentals_index_grid.html">Property Listing <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="misc_charts.html">Charts</a>
@@ -1083,7 +1108,8 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="auth_register.html">Register</a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
                                     <a href="auth_lock.html">Lock Screen</a>
                                 </li>
@@ -1116,7 +1142,8 @@ include __DIR__ . '/header/include.php';
                         <div class="sub-menu-i">
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="uikit_modals.html">Modals <strong class="badge badge-danger">New</strong></a>
+                                    <a href="uikit_modals.html">Modals <strong
+                                                class="badge badge-danger">New</strong></a>
                                 </li>
                                 <li>
                                     <a href="uikit_alerts.html">Alerts</a>
@@ -1130,7 +1157,8 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="uikit_popovers.html">Popover</a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
                                     <a href="uikit_tooltips.html">Tooltips</a>
                                 </li>
@@ -1304,7 +1332,8 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="icon_fonts_eightyshades.html">Eightyshades</a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
                                     <a href="icon_fonts_entypo.html">Entypo</a>
                                 </li>
@@ -1323,7 +1352,8 @@ include __DIR__ . '/header/include.php';
                                 <li>
                                     <a href="icon_fonts_batch_icons.html">Batch Icons</a>
                                 </li>
-                            </ul><ul class="sub-menu">
+                            </ul>
+                            <ul class="sub-menu">
                                 <li>
                                     <a href="icon_fonts_dashicons.html">Dashicons</a>
                                 </li>
@@ -1349,7 +1379,9 @@ include __DIR__ . '/header/include.php';
                     Clean Bootstrap 4 Template
                 </p>
                 <div class="btn-w">
-                    <a class="btn btn-white btn-rounded" href="https://themeforest.net/item/light-admin-clean-bootstrap-dashboard-html-template/19760124?ref=Osetin" target="_blank">Purchase Now</a>
+                    <a class="btn btn-white btn-rounded"
+                       href="https://themeforest.net/item/light-admin-clean-bootstrap-dashboard-html-template/19760124?ref=Osetin"
+                       target="_blank">Purchase Now</a>
                 </div>
             </div>
         </div>
@@ -1500,7 +1532,8 @@ include __DIR__ . '/header/include.php';
                                         <a href="apps_email.html"><i class="os-icon os-icon-mail-01"></i><span>Incoming Mail</span></a>
                                     </li>
                                     <li>
-                                        <a href="users_profile_big.html"><i class="os-icon os-icon-user-male-circle2"></i><span>Profile Details</span></a>
+                                        <a href="users_profile_big.html"><i
+                                                    class="os-icon os-icon-user-male-circle2"></i><span>Profile Details</span></a>
                                     </li>
                                     <li>
                                         <a href="users_profile_small.html"><i class="os-icon os-icon-coins-4"></i><span>Billing Details</span></a>
@@ -1659,16 +1692,20 @@ include __DIR__ . '/header/include.php';
                                                 </td>
                                                 <td>
                                                     <div class="cell-image-list">
-                                                        <div class="cell-img" style="background-image: url(img/portfolio9.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio2.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio12.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio9.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio2.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio12.jpg)"></div>
                                                         <div class="cell-img-more">
                                                             + 5 more
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill green" data-title="Complete" data-toggle="tooltip"></div>
+                                                    <div class="status-pill green" data-title="Complete"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="text-right">
                                                     $354
@@ -1680,12 +1717,15 @@ include __DIR__ . '/header/include.php';
                                                 </td>
                                                 <td>
                                                     <div class="cell-image-list">
-                                                        <div class="cell-img" style="background-image: url(img/portfolio14.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio8.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio14.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio8.jpg)"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill red" data-title="Cancelled" data-toggle="tooltip"></div>
+                                                    <div class="status-pill red" data-title="Cancelled"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="text-right">
                                                     $94
@@ -1697,13 +1737,17 @@ include __DIR__ . '/header/include.php';
                                                 </td>
                                                 <td>
                                                     <div class="cell-image-list">
-                                                        <div class="cell-img" style="background-image: url(img/portfolio16.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio14.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio5.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio16.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio14.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio5.jpg)"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill green" data-title="Complete" data-toggle="tooltip"></div>
+                                                    <div class="status-pill green" data-title="Complete"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="text-right">
                                                     $156
@@ -1715,16 +1759,20 @@ include __DIR__ . '/header/include.php';
                                                 </td>
                                                 <td>
                                                     <div class="cell-image-list">
-                                                        <div class="cell-img" style="background-image: url(img/portfolio1.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio5.jpg)"></div>
-                                                        <div class="cell-img" style="background-image: url(img/portfolio6.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio1.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio5.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio6.jpg)"></div>
                                                         <div class="cell-img-more">
                                                             + 2 more
                                                         </div>
                                                     </div>
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill yellow" data-title="Pending" data-toggle="tooltip"></div>
+                                                    <div class="status-pill yellow" data-title="Pending"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="text-right">
                                                     $1,120
@@ -1736,11 +1784,13 @@ include __DIR__ . '/header/include.php';
                                                 </td>
                                                 <td>
                                                     <div class="cell-image-list">
-                                                        <div class="cell-img" style="background-image: url(img/portfolio9.jpg)"></div>
+                                                        <div class="cell-img"
+                                                             style="background-image: url(img/portfolio9.jpg)"></div>
                                                     </div>
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill green" data-title="Complete" data-toggle="tooltip"></div>
+                                                    <div class="status-pill green" data-title="Complete"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="text-right">
                                                     $856
@@ -1769,7 +1819,8 @@ include __DIR__ . '/header/include.php';
                                         <div class="row">
                                             <div class="col-auto col-xxxxl-6 ml-sm-auto mr-sm-auto col-6">
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #6896f9;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #6896f9;"></div>
                                                     <div class="legend-value">
                                                         <span>Prada</span>
                                                         <div class="legend-sub-value">
@@ -1778,7 +1829,8 @@ include __DIR__ . '/header/include.php';
                                                     </div>
                                                 </div>
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #85c751;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #85c751;"></div>
                                                     <div class="legend-value">
                                                         <span>Maui Jim</span>
                                                         <div class="legend-sub-value">
@@ -1789,7 +1841,8 @@ include __DIR__ . '/header/include.php';
                                             </div>
                                             <div class="col-6 d-lg-none d-xxl-block">
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #806ef9;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #806ef9;"></div>
                                                     <div class="legend-value">
                                                         <span>Gucci</span>
                                                         <div class="legend-sub-value">
@@ -1798,7 +1851,8 @@ include __DIR__ . '/header/include.php';
                                                     </div>
                                                 </div>
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #d97b70;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #d97b70;"></div>
                                                     <div class="legend-value">
                                                         <span>Armani</span>
                                                         <div class="legend-sub-value">
@@ -1918,7 +1972,8 @@ include __DIR__ . '/header/include.php';
                                             Inventory History
                                         </h6>
                                         <div class="el-chart-w">
-                                            <canvas data-chart-data="13,28,19,24,43,49,40,35,42,46,38,32,45" height="50" id="liteLineChartV3" width="300"></canvas>
+                                            <canvas data-chart-data="13,28,19,24,43,49,40,35,42,46,38,32,45" height="50"
+                                                    id="liteLineChartV3" width="300"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -1995,7 +2050,8 @@ include __DIR__ . '/header/include.php';
                                         <div class="row">
                                             <div class="col-auto col-xxxxl-6 ml-sm-auto mr-sm-auto">
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #6896f9;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #6896f9;"></div>
                                                     <div class="legend-value">
                                                         <span>Safari</span>
                                                         <div class="legend-sub-value">
@@ -2004,7 +2060,8 @@ include __DIR__ . '/header/include.php';
                                                     </div>
                                                 </div>
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #85c751;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #85c751;"></div>
                                                     <div class="legend-value">
                                                         <span>Chrome</span>
                                                         <div class="legend-sub-value">
@@ -2015,7 +2072,8 @@ include __DIR__ . '/header/include.php';
                                             </div>
                                             <div class="col-sm-6 d-none d-xxxxl-block">
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #806ef9;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #806ef9;"></div>
                                                     <div class="legend-value">
                                                         <span>Firefox</span>
                                                         <div class="legend-sub-value">
@@ -2024,7 +2082,8 @@ include __DIR__ . '/header/include.php';
                                                     </div>
                                                 </div>
                                                 <div class="legend-value-w">
-                                                    <div class="legend-pin legend-pin-squared" style="background-color: #d97b70;"></div>
+                                                    <div class="legend-pin legend-pin-squared"
+                                                         style="background-color: #d97b70;"></div>
                                                     <div class="legend-value">
                                                         <span>Explorer</span>
                                                         <div class="legend-sub-value">
@@ -2052,11 +2111,15 @@ include __DIR__ . '/header/include.php';
                                     <div class="controls-above-table">
                                         <div class="row">
                                             <div class="col-sm-6">
-                                                <a class="btn btn-sm btn-secondary" href="#">Download CSV</a><a class="btn btn-sm btn-secondary" href="#">Archive</a><a class="btn btn-sm btn-danger" href="#">Delete</a>
+                                                <a class="btn btn-sm btn-secondary" href="#">Download CSV</a><a
+                                                        class="btn btn-sm btn-secondary" href="#">Archive</a><a
+                                                        class="btn btn-sm btn-danger" href="#">Delete</a>
                                             </div>
                                             <div class="col-sm-6">
                                                 <form class="form-inline justify-content-sm-end">
-                                                    <input class="form-control form-control-sm rounded bright" placeholder="Search" type="text"><select class="form-control form-control-sm rounded bright">
+                                                    <input class="form-control form-control-sm rounded bright"
+                                                           placeholder="Search" type="text"><select
+                                                            class="form-control form-control-sm rounded bright">
                                                         <option selected="selected" value="">
                                                             Select Status
                                                         </option>
@@ -2124,10 +2187,14 @@ include __DIR__ . '/header/include.php';
                                                     Organic
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill green" data-title="Complete" data-toggle="tooltip"></div>
+                                                    <div class="status-pill green" data-title="Complete"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="row-actions">
-                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i class="os-icon os-icon-grid-10"></i></a><a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i
+                                                                class="os-icon os-icon-grid-10"></i></a><a
+                                                            class="danger" href="#"><i
+                                                                class="os-icon os-icon-ui-15"></i></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2147,10 +2214,14 @@ include __DIR__ . '/header/include.php';
                                                     Organic
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill red" data-title="Cancelled" data-toggle="tooltip"></div>
+                                                    <div class="status-pill red" data-title="Cancelled"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="row-actions">
-                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i class="os-icon os-icon-grid-10"></i></a><a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i
+                                                                class="os-icon os-icon-grid-10"></i></a><a
+                                                            class="danger" href="#"><i
+                                                                class="os-icon os-icon-ui-15"></i></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2170,10 +2241,14 @@ include __DIR__ . '/header/include.php';
                                                     Adwords
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill green" data-title="Complete" data-toggle="tooltip"></div>
+                                                    <div class="status-pill green" data-title="Complete"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="row-actions">
-                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i class="os-icon os-icon-grid-10"></i></a><a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i
+                                                                class="os-icon os-icon-grid-10"></i></a><a
+                                                            class="danger" href="#"><i
+                                                                class="os-icon os-icon-ui-15"></i></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2193,10 +2268,14 @@ include __DIR__ . '/header/include.php';
                                                     Organic
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill green" data-title="Complete" data-toggle="tooltip"></div>
+                                                    <div class="status-pill green" data-title="Complete"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="row-actions">
-                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i class="os-icon os-icon-grid-10"></i></a><a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i
+                                                                class="os-icon os-icon-grid-10"></i></a><a
+                                                            class="danger" href="#"><i
+                                                                class="os-icon os-icon-ui-15"></i></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -2216,10 +2295,14 @@ include __DIR__ . '/header/include.php';
                                                     Organic
                                                 </td>
                                                 <td class="text-center">
-                                                    <div class="status-pill yellow" data-title="Pending" data-toggle="tooltip"></div>
+                                                    <div class="status-pill yellow" data-title="Pending"
+                                                         data-toggle="tooltip"></div>
                                                 </td>
                                                 <td class="row-actions">
-                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i class="os-icon os-icon-grid-10"></i></a><a class="danger" href="#"><i class="os-icon os-icon-ui-15"></i></a>
+                                                    <a href="#"><i class="os-icon os-icon-ui-49"></i></a><a href="#"><i
+                                                                class="os-icon os-icon-grid-10"></i></a><a
+                                                            class="danger" href="#"><i
+                                                                class="os-icon os-icon-ui-15"></i></a>
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -2471,7 +2554,12 @@ include __DIR__ . '/header/include.php';
                             <div class="chat-controls">
                                 <input class="message-input" placeholder="Type your message here..." type="text">
                                 <div class="chat-extra">
-                                    <a href="#"><span class="extra-tooltip">Attach Document</span><i class="os-icon os-icon-documents-07"></i></a><a href="#"><span class="extra-tooltip">Insert Photo</span><i class="os-icon os-icon-others-29"></i></a><a href="#"><span class="extra-tooltip">Upload Video</span><i class="os-icon os-icon-ui-51"></i></a>
+                                    <a href="#"><span class="extra-tooltip">Attach Document</span><i
+                                                class="os-icon os-icon-documents-07"></i></a><a href="#"><span
+                                                class="extra-tooltip">Insert Photo</span><i
+                                                class="os-icon os-icon-others-29"></i></a><a href="#"><span
+                                                class="extra-tooltip">Upload Video</span><i
+                                                class="os-icon os-icon-ui-51"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2493,7 +2581,12 @@ include __DIR__ . '/header/include.php';
                         </h6>
                         <div class="element-box-tp">
                             <div class="el-buttons-list full-width">
-                                <a class="btn btn-white btn-sm" href="#"><i class="os-icon os-icon-delivery-box-2"></i><span>Create New Product</span></a><a class="btn btn-white btn-sm" href="#"><i class="os-icon os-icon-window-content"></i><span>Customer Comments</span></a><a class="btn btn-white btn-sm" href="#"><i class="os-icon os-icon-wallet-loaded"></i><span>Store Settings</span></a>
+                                <a class="btn btn-white btn-sm" href="#"><i
+                                            class="os-icon os-icon-delivery-box-2"></i><span>Create New Product</span></a><a
+                                        class="btn btn-white btn-sm" href="#"><i
+                                            class="os-icon os-icon-window-content"></i><span>Customer Comments</span></a><a
+                                        class="btn btn-white btn-sm" href="#"><i
+                                            class="os-icon os-icon-wallet-loaded"></i><span>Store Settings</span></a>
                             </div>
                         </div>
                     </div>
@@ -2648,7 +2741,8 @@ include __DIR__ . '/header/include.php';
                         </h6>
                         <div class="element-box-tp">
                             <div class="input-search-w">
-                                <input class="form-control rounded bright" placeholder="Search team members..." type="search">
+                                <input class="form-control rounded bright" placeholder="Search team members..."
+                                       type="search">
                             </div>
                             <div class="users-list-w">
                                 <div class="user-w with-status status-green">
@@ -2746,10 +2840,11 @@ include __DIR__ . '/footer/include.php';
 ?>
 <script>
     //start dev querying
-    new Vue({
+    let vue = new Vue({
         el: '#app',
         data: {
             info: 'Information from vue app....',
-        }
+        },
+        methods: {btnout: btnout}
     })
 </script>

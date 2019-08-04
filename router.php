@@ -7,22 +7,22 @@ $router->get('/', function () {
     require(renderView('login'));
 });
 //make a middleware anf general login
-$router->before('GET|POST','/su/.*', function () {
-    if(true){
+$router->before('GET|POST', '/su/.*', function () {
+    if (!$_SESSION[SESSION_NAME]) {
         require(renderView('login'));
+        exit();
     }
-    exit();
 });
 
 //to admin dashboard
 $router->mount('/su', function () use ($router) {
     //home page for su
-    $router->get("/", function () use ($router){
+    $router->get("/", function () use ($router) {
         //check if login
 
     });
     //su dashboard
-    $router->get("/dashboard", function (){
+    $router->get("/dashboard", function () {
         require(renderView('dashboard'));
     });
 });
@@ -30,5 +30,5 @@ $router->mount('/su', function () use ($router) {
 
 //test url
 $router->get("/test", function () {
-
+    echo random_int(10, 100);
 });

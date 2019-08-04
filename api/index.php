@@ -1,12 +1,16 @@
 <?php
 //require general config
 require '../config.php';
+//require most token lib
+require 'auth.php';
+use Auth\Auth;
+
 if(APP_HIDE_ERROR){
     error_reporting(0); //silence every error
 }
 //disabled access to api from any link
-if(APP_REJECT_OTHERS){
-    require ('auth.php');
+if(APP_ALLOW_OTHERS){
+    Auth::AllowHeadOrigins();
 }
 header('Content-Type: application/json');
 //import routing engines
@@ -26,7 +30,6 @@ $router = new Router();
 $router->set404(function () {
     echo makeApi(false, [], 'Route not defined');
 });
-
 //require main api route
 require ('router.php');
 

@@ -8,6 +8,11 @@ function getRetrofit()
     return file_get_contents("php://input");
 }
 
+function getAxios(){
+    $data = json_decode(file_get_contents("php://input"), TRUE);
+    return $data;
+}
+
 /**
  * make and return barcode string
  * */

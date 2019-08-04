@@ -1,5 +1,6 @@
 <html lang="en">
 <?php
+session_start();
 //require config
 require __DIR__ . '/config.php';
 if(APP_HIDE_ERROR){
